@@ -1,1 +1,6 @@
 name, date, description
+Marcy Lorenzi, 4/29/2015, an attempt at lab 5.... I tried starting from sratch.
+I tried convernting from the example's library to the ones we were suspose to use.
+I gave up even on that. I tried to place a texture. It wasn't happening.
+JJ and I are still trying to figure out project 2. That has a much higher chance of being finished by friday than this lab.
+I was able to add in my on vertices and move around the heart using wasd.
