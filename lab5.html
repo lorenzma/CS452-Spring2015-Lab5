@@ -1,29 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
-<script id="vertex-shader" type="x-shader/x-vertex">
-attribute vec4 vPosition;
-void main() {
-  gl_Position = vPosition;
-}
-</script>
+<!-- saved from url=(0062)http://rodger.global-linguist.com/webgl/ch10/Shadow_highp.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
 
-<script id="fragment-shader" type="x-shader/x-fragment">
-precision mediump float;
+  <style type="text/css"></style></head>
 
-void main() {
-  gl_FragColor = vec4( 1.0, 1.0, 1.0, 1.0 );
-}
-</script>
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+      Please use a browser that supports "canvas"
+    </canvas>
 
-<script type="text/javascript" src="../Common/webgl-utils.js"></script>
-<script type="text/javascript" src="../Common/initShaders.js"></script>
-<script type="text/javascript" src="../Common/MV.js"></script>
-<script type="text/javascript" src="lab2.js"></script>
-</head>
-<body>
-<canvas id="gl-canvas" width="512" height="512">
-Oops ... your browser doesn't support the HTML5 canvas element
-</canvas>
-</body>
-</html>
+    <script src="./aaaa_files/webgl-utils.js"></script>
+    <script src="./aaaa_files/webgl-debug.js"></script>
+    <script src="./aaaa_files/cuon-utils.js"></script>
+    <script src="./aaaa_files/cuon-matrix.js"></script>
+	<script type="text/javascript" src="webgl-utils.js"></script>
+<script type="text/javascript" src="initShaders.js"></script>
+<script type="text/javascript" src="MV.js"></script>
+    <script src="./aaaa_files/Shadow_highp.js"></script>
+  
+
+</body></html>
